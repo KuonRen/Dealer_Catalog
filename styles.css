@@ -126,9 +126,5 @@ button:hover {
 @media screen and (max-width: 768px) {
     .car {
         width: 100%; /* スマホでは1車両ずつ縦に配置 */
-        #searchBox {
-        width: 200px; /* 横幅を縮小 */
-        font-size: 14px; /* フォントサイズも調整 */
-        }
     }
 }
