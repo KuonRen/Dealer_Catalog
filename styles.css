@@ -126,5 +126,25 @@ button:hover {
 @media screen and (max-width: 768px) {
     .car {
         width: 100%; /* スマホでは1車両ずつ縦に配置 */
+
+    button {
+    padding: 10px 20px;
+    margin: 8px;
+    cursor: pointer;
+    border: 2px solid rgba(255, 255, 255, 0.3); /* 微細な透明感のある境界線 */
+    background-color: rgba(0, 0, 0, 0.6); /* 半透明な黒色で背景と馴染む色調 */
+    color: white;
+    font-size: 18px; /* 少し大きめのフォントで存在感を強調 */
+    font-family: "Playfair Display", serif; /* 高級感を感じるシンプルなフォント */
+    border-radius: 8px; /* 柔らかい角丸形状 */
+    box-shadow: 0 4px 15px rgba(255, 255, 255, 0.1); /* さりげない光の輝き効果 */
+    transition: all 0.3s ease; /* マウスオーバー時の滑らかな変化 */
+    }
+
+    button:hover {
+    background-color: rgba(255, 255, 255, 0.1); /* マウスオーバー時に少し明るくなる効果 */
+    color: rgba(255, 255, 255, 0.9); /* テキストを鮮明に */
+    box-shadow: 0 6px 20px rgba(255, 255, 255, 0.3); /* 光の効果を増強 */
+        }
     }
 }
