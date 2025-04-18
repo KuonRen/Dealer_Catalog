@@ -75,7 +75,7 @@ button:hover {
 
 .car p {
     font-family: "Georgia", serif; /* 上品で落ち着いたフォント */
-    font-size: 40px;
+    font-size: 35px;
     color: #ffd700; /* ゴールドカラー（金インゴット風） */
     font-weight: 500;
     text-shadow: 1px 1px 4px rgba(255, 215, 0, 0.6); /* 光沢感を演出するシャドウ */
@@ -125,7 +125,7 @@ button:hover {
 /* スマホ用レイアウト調整 */
 @media screen and (max-width: 768px) {
     .h1 {
-        font-size: 2em;
+        font-size: 20px;
     }
     .car {
         width: 100%; /* スマホでは1車両ずつ縦に配置 */
