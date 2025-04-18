@@ -123,7 +123,11 @@ button:hover {
 }
 
 footer {
-    background-color: #242424;
+    background-color: #333; /* ダークグレー背景 */
+    color: #fff; /* テキストカラーを白に */
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
 }
 
 /* スマホ用レイアウト調整 */
