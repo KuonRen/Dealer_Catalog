@@ -122,6 +122,10 @@ button:hover {
     border-radius: 5px;
 }
 
+footer {
+    background-color: #242424;
+}
+
 /* スマホ用レイアウト調整 */
 @media screen and (max-width: 768px) {
     h1 {
