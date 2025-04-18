@@ -124,6 +124,9 @@ button:hover {
 
 /* スマホ用レイアウト調整 */
 @media screen and (max-width: 768px) {
+    .h1 {
+        font-size: 2em;
+    }
     .car {
         width: 100%; /* スマホでは1車両ずつ縦に配置 */
     }
