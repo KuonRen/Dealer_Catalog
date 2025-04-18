@@ -13,24 +13,30 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>∫ HOGTA - Car Dealer ∫</h1>
-    
-    <div id="buttons">
-        <button onclick="filterCars('Super')">Super</button>
-        <button onclick="filterCars('Sports')">Sports</button>
-        <button onclick="filterCars('Bike')">Bike</button>
-        <button onclick="filterCars('Other')">Other</button>
-    </div>
+    <header>
+        <h1>∫ HOGTA - Car Dealer ∫</h1>
+    </header>
+    <main>
+        <div id="buttons">
+            <button onclick="filterCars('Super')">Super</button>
+            <button onclick="filterCars('Sports')">Sports</button>
+            <button onclick="filterCars('Bike')">Bike</button>
+            <button onclick="filterCars('Other')">Other</button>
+        </div>
 
-    <div id="controls">
-        <input type="text" id="searchBox" placeholder="車両名を検索...">
-        <button onclick="executeSearch()">検索</button>
-        <button id="sortByButton" onclick="toggleSortBy()">名前順</button>
-        <button id="sortOrderButton" onclick="toggleSortOrder()">昇順</button>
-    </div>
+        <div id="controls">
+            <input type="text" id="searchBox" placeholder="車両名を検索...">
+            <button onclick="executeSearch()">検索</button>
+            <button id="sortByButton" onclick="toggleSortBy()">名前順</button>
+            <button id="sortOrderButton" onclick="toggleSortOrder()">昇順</button>
+        </div>
     
-    <div id="catalog"></div>
+        <div id="catalog"></div>
 
-    <script src="script.js"></script>
+        <script src="script.js"></script>
+    </main>
+    <footer>
+        coming soon
+    </footer>
 </body>
 </html>
