@@ -1,1 +1,36 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dealer Catalog - Created by Ren</title>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Allura&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>∫ HOGTA - Car Dealer ∫</h1>
+    
+    <div id="buttons">
+        <button onclick="filterCars('Super')">Super</button>
+        <button onclick="filterCars('Sports')">Sports</button>
+        <button onclick="filterCars('Bike')">Bike</button>
+        <button onclick="filterCars('Other')">Other</button>
+    </div>
 
+    <div id="controls">
+        <input type="text" id="searchBox" placeholder="車両名を検索...">
+        <button onclick="executeSearch()">検索</button>
+        <button id="sortByButton" onclick="toggleSortBy()">名前順</button>
+        <button id="sortOrderButton" onclick="toggleSortOrder()">昇順</button>
+    </div>
+    
+    <div id="catalog"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
