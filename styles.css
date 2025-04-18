@@ -128,7 +128,7 @@ button:hover {
         width: 100%; /* スマホでは1車両ずつ縦に配置 */
 
     button {
-    padding: 8px 16px;
+    padding: 12px 24px;
     margin: 8px;
     cursor: pointer;
     border: 2px solid rgba(255, 255, 255, 0.3); /* 微細な透明感のある境界線 */
