@@ -125,7 +125,7 @@ button:hover {
 footer {
     background-color: #333; /* ダークグレー背景 */
     color: #fff; /* テキストカラーを白に */
-    padding: 10px;
+    padding: 20px;
     text-align: center;
     font-size: 14px;
 }
