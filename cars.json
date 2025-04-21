@@ -1,44 +1,50 @@
-[
-    {
-        "name": "Ignus",
-        "price": "$3,000,000",
-        "image": "images/z_s1_ignus.avif",
-        "category": "Super"
-    },
-    {
-        "name": "Krieger",
-        "price": "$500,000",
-        "image": "images/z_s1_krieger.avif",
-        "category": "Super"
-    },
-    {
-        "name": "Zentorno",
-        "price": "$90,000",
-        "image": "images/z_s1_zentorno.avif",
-        "category": "Super"
-    },
-    {
-        "name": "Nero Custom",
-        "price": "$25,000",
-        "image": "images/z_s1_nerokasu.avif",
-        "category": "Super"
-    },
-    {
-        "name": "Itari GTO",
-        "price": "$25,000",
-        "image": "images/z_s1_itarigto.avif",
-        "category": "Super"
-    },
-    {
-        "name": "Shinobi",
-        "price": "$25,000",
-        "image": "images/example.avif",
-        "category": "Bike"
-    },
-    {
-        "name": "Nanka",
-        "price": "$40,000",
-        "image": "images/example.avif",
-        "category": "Other"
-    }
-]
+{
+    "Super": [
+        {
+            "name": "Ignus",
+            "price": "$3,000,000",
+            "image": "images/z_s1_ignus.avif"
+        },
+        {
+            "name": "Krieger",
+            "price": "$500,000",
+            "image": "images/z_s1_krieger.avif"
+        },
+        {
+            "name": "Zentorno",
+            "price": "$90,000",
+            "image": "images/z_s1_zentorno.avif"
+        },
+        {
+            "name": "Nero Custom",
+            "price": "$25,000",
+            "image": "images/z_s1_nerokasu.avif"
+        },
+        {
+            "name": "Itari GTO",
+            "price": "$25,000",
+            "image": "images/z_s1_itarigto.avif"
+        }
+    ],
+    "Sports": [
+        {
+            "name": "aaaa",
+            "price": "$25,000",
+            "image": "images/example.avif"
+        }
+    ],
+    "Bike": [
+        {
+            "name": "Shinobi",
+            "price": "$25,000",
+            "image": "images/example.avif"
+        }
+    ],
+    "Other": [
+        {
+            "name": "Nanka",
+            "price": "$40,000",
+            "image": "images/example.avif"
+        }
+    ]
+}
