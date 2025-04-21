@@ -55,12 +55,12 @@ button:hover {
 
 /* 車両情報のスタイル */
 .car {
-    border: 1px solid #ff7777;
-    border-width: 3px;
+    border: 1px solid #ff0000;
+    border-width: 2px;
     padding: 10px;
     width: calc(25% - 20px); /* PCでは横4車両配置 */
     box-sizing: border-box;
-    background-color: #d092ff;
+    background-color: rgba(237, 133, 255,0.5);
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -68,7 +68,7 @@ button:hover {
 .car h2 {
     font-family: "Playfair Display", serif; /* 上品で高級感のあるフォント */
     font-size: 1.8em; /* 少し大きめのフォントサイズ */
-    color: #2c3e50; /* 落ち着いた濃紺で高級感を演出 */
+    color: #67fffa; /* 落ち着いた濃紺で高級感を演出 */
     margin: 10px 0; /* 余白の調整 */
     text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3); /* 微妙な影効果を追加 */
 }
